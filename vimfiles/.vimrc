@@ -9,12 +9,12 @@
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
+set t_Co=256
 set title
 set number
 syntax enable
 set lazyredraw
 set ttyfast
-set t_Co=16
 
 colorscheme solarized
 set background=dark                     " change to 'background=light' for 'solarized light'. See keyboard mappings below:
