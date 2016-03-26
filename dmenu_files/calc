@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Calculator using dmenu. Can be called from dmenu itself.
+# Use <tab> to go on with result.
+#
+# Based on a script from https://bbs.archlinux.org:
+# xsel -o | dmenu -p Calculate: | xargs echo | bc 2>&1 | dmenu -p Answer: | xsel -i
+
+xsel -o |
+
+dmenu -fn 'Noto Sans-10:regular' -nb '#303030' -nf '#D0C9B1' -sb '#7AA243' -sf '#333333' -p 'Calculate:' |
+
+xargs echo |
+
+bc 2>&1 |
+
+dmenu -fn 'Noto Sans-10:regular' -nb '#303030' -nf '#D0C9B1' -sb '#7AA243' -sf '#333333' -p 'Answer:' |
+
+xsel -i
