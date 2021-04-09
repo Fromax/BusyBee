@@ -1,1 +1,1 @@
-Tableur conso. Interceptor 650
+Tableur conso. Interceptor 650 (Version française)
